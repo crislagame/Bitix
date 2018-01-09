@@ -1,0 +1,16 @@
+<html np-app>
+  <head>
+    <title>Listagem de plataformas</title>
+  </head>
+  <body>
+    <div ng-app="myApp">
+      <div ng-controller="myCtrl">
+        <div ng-repeat="(sku,nome,descricao) in plataformas">{{nome}}</div>
+        <select ng-model="model.sku" ng-options="plat.sku as plat.nome for plat in plataformas" ></select>
+            {{model.sku}}
+      </div>
+    </div>
+</body>
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/bootstrap/dist/bootstrap.min.js"></script>
+</html>

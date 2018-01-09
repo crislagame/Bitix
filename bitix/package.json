@@ -1,0 +1,24 @@
+{
+  "name": "wooza",
+  "version": "1.0.0",
+  "description": "primeiro projeto na wooza",
+  "main": "index.js",
+  "scripts": {
+    "test": "<h1>Oi {{seuNome}}</h1>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagame/wooza.git"
+  },
+  "author": "Cristiano Lagame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lagame/wooza/issues"
+  },
+  "homepage": "https://github.com/lagame/wooza#readme",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {}
+}
